@@ -2992,7 +2992,7 @@
 							)
 						)
 					)
-					(number "129"
+					(number "EPAD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4455,12 +4455,6 @@
 		(uuid "239fe91e-98e7-4939-a71d-ee65f6569b82")
 	)
 	(junction
-		(at 143.51 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "30ad0b27-e3f0-4e33-bd42-aecdb99d481a")
-	)
-	(junction
 		(at 100.33 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4549,6 +4543,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4f5a501f-2fca-4b57-b492-f2d56dd914c8")
+	)
+	(junction
+		(at 273.05 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "519c8b14-97fd-4910-8150-7b94ae6da0af")
 	)
 	(junction
 		(at 100.33 113.03)
@@ -4663,6 +4663,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e32fa0f0-614f-457e-8774-25bd3cff3b93")
+	)
+	(junction
+		(at 143.51 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2c869bb-80e4-43ed-b81f-9377bc6eb4b9")
 	)
 	(junction
 		(at 220.98 116.84)
@@ -4866,7 +4872,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 99.06) (xy 269.24 116.84)
+			(xy 273.05 99.06) (xy 273.05 116.84)
 		)
 		(stroke
 			(width 0)
@@ -5396,7 +5402,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 116.84) (xy 269.24 116.84)
+			(xy 260.35 116.84) (xy 273.05 116.84)
 		)
 		(stroke
 			(width 0)
@@ -6900,7 +6906,7 @@
 		(pin "97"
 			(uuid "7a2ccf14-49c8-4008-9632-0b7a200016a3")
 		)
-		(pin "129"
+		(pin "EPAD"
 			(uuid "2fd53581-b2a9-4e84-89ab-a34e8bd6207c")
 		)
 		(pin "98"
@@ -7567,6 +7573,88 @@
 			(project "SBC"
 				(path "/b4d218fa-7dac-4029-a1de-f18f86a4abe3"
 					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 273.05 120.65 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41d672fc-1956-4355-b9da-b5c2e8c494ef")
+		(property "Reference" "C67"
+			(at 276.86 119.3799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4u7"
+			(at 276.86 121.9199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 272.0848 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 273.05 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6cbe4a4f-cc55-4721-96b7-45314edc4d75")
+		)
+		(pin "2"
+			(uuid "ad8a879e-9451-49d2-b172-9b699c4e9467")
+		)
+		(instances
+			(project "SBC"
+				(path "/b4d218fa-7dac-4029-a1de-f18f86a4abe3"
+					(reference "C67")
 					(unit 1)
 				)
 			)
@@ -8288,7 +8376,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V8")
-		(at 269.24 99.06 0)
+		(at 273.05 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8299,7 +8387,7 @@
 		(fields_autoplaced yes)
 		(uuid "87789d34-1f5c-48ac-9506-0c9b069a43d0")
 		(property "Reference" "#PWR035"
-			(at 269.24 102.87 0)
+			(at 273.05 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8310,7 +8398,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 269.24 93.98 0)
+			(at 273.05 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8320,7 +8408,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 269.24 99.06 0)
+			(at 273.05 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8331,7 +8419,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 99.06 0)
+			(at 273.05 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8342,7 +8430,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 269.24 99.06 0)
+			(at 273.05 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10035,6 +10123,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 273.05 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec93745c-b0d3-4467-8da1-7f1fb2ebe41f")
+		(property "Reference" "#PWR098"
+			(at 273.05 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 273.05 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 273.05 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0a5510e4-0821-4c06-9ed9-40c82271a2ff")
+		)
+		(instances
+			(project "SBC"
+				(path "/b4d218fa-7dac-4029-a1de-f18f86a4abe3"
+					(reference "#PWR098")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 60.96 119.38 180)
 		(unit 1)
@@ -10148,7 +10314,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering"
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 207.01 50.8 0)
 			(hide yes)
 			(show_name no)
