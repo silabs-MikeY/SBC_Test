@@ -306,7 +306,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd dnp)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.86 0.96)
@@ -5584,7 +5584,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd dnp)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1 -0.96)
@@ -6319,7 +6319,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C14664"
+		(property "LCSC Part #" "C596327"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7130,7 +7130,7 @@
 				)
 			)
 		)
-		(property "Value" "36p"
+		(property "Value" "18p"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "3d012790-00c9-465c-b476-8de42a61dc28")
@@ -7163,7 +7163,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C519462"
+		(property "LCSC Part #" "C107040"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9280,7 +9280,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C14664"
+		(property "LCSC Part #" "C596327"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12391,7 +12391,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd dnp)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1 -0.96)
@@ -13015,7 +13015,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd dnp)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1 -0.96)
@@ -14147,7 +14147,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd dnp)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1 -0.96)
@@ -17783,7 +17783,7 @@
 				)
 			)
 		)
-		(property "Value" "Crystal_GND24"
+		(property "Value" "12 MHz"
 			(at 0 2.45 90)
 			(layer "F.Fab")
 			(uuid "aedeacad-cf0f-4e16-9fa4-c7549d1d14b5")
@@ -17816,7 +17816,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C13738"
+		(property "LCSC Part #" "C50430"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21467,7 +21467,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C167220"
+		(property "LCSC Part #" "C167219"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22921,7 +22921,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd dnp)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1 -0.96)
@@ -23707,7 +23707,7 @@
 				)
 			)
 		)
-		(property "Value" "Crystal_GND24"
+		(property "Value" "24 MHz"
 			(at 0 2.45 270)
 			(layer "F.Fab")
 			(uuid "553ace2a-4a0e-450a-a56a-13c6f388c965")
@@ -23740,7 +23740,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C12260"
+		(property "LCSC Part #" "C70590"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26102,7 +26102,7 @@
 				)
 			)
 		)
-		(property "Value" "36p"
+		(property "Value" "18p"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "6b0a8216-83ea-4e84-bba8-a2e4345d3920")
@@ -26135,7 +26135,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C519462"
+		(property "LCSC Part #" "C107040"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30330,7 +30330,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C167222"
+		(property "LCSC Part #" "C167221"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")

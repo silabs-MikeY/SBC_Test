@@ -8438,7 +8438,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "36p"
+		(property "Value" "18p"
 			(at 199.39 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8482,7 +8482,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C519462"
+		(property "LCSC Part #" "C107040"
 			(at 195.58 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -10978,7 +10978,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "36p"
+		(property "Value" "18p"
 			(at 219.71 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11022,7 +11022,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C519462"
+		(property "LCSC Part #" "C107040"
 			(at 215.9 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -11485,7 +11485,7 @@
 				)
 			)
 		)
-		(property "Value" "Crystal_GND24"
+		(property "Value" "24 MHz"
 			(at 207.01 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11550,7 +11550,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C12260"
+		(property "LCSC Part #" "C70590"
 			(at 207.01 50.8 0)
 			(hide yes)
 			(show_name no)

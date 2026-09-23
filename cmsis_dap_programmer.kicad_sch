@@ -11726,7 +11726,7 @@
 				)
 			)
 		)
-		(property "Value" "Crystal_GND24"
+		(property "Value" "12 MHz"
 			(at 97.79 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11791,7 +11791,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C13738"
+		(property "LCSC Part #" "C50430"
 			(at 97.79 133.35 0)
 			(hide yes)
 			(show_name no)
